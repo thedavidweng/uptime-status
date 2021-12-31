@@ -10,8 +10,11 @@
 
 ## 如何复用这个项目？  
 ### 1- fork 一份到你的 github 账号下；  
-### 2- 修改配置文件：config.js，主要是修改 apikey 内容，强烈建议使用 Read-Only key,<https://uptimerobot.com/dashboard#mySettings> 如下图；  
+### 2- 修改配置文件：config.js，主要是修改 apikey 内容 ,为了安全起见，<https://uptimerobot.com/dashboard#mySettings> 创建Read-Only API Key即可，将显示所有监控网站 如下图；  
+
+#### 若想显示部分网站监控需要按照下图一一配置对应特定于监视器的 API 密钥
 ![](https://cdn.jsdelivr.net/gh/Qikaile/cdn/img/warn.png.png)  
+
 ### 3- 绑定网站域名，恭喜部署完成！
 
 #### 登录cloudflare主页，在主菜单右边，点击【网页】
