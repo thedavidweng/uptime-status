@@ -139,56 +139,18 @@ a {
 }
 
 #uptime .meta .status.ok {
-  /*background-image: url(./assets/success.svg);*/
-  color: #4fd69c;
-}
-
-#uptime .meta .status.ok:after, #uptime .meta .status.ok:before {
-    content: "";
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    background: #4fd69c;
-    margin-right: 8px;
-    border-radius: 10px;
-    position: absolute;
-    left: -20px;
-    top: 1px;
+  background-image: url(./assets/success.svg);
+  color: #28A745;
 }
 
 #uptime .meta .status.down {
-  /*background-image: url(./assets/fail.svg);*/
-  color: #f75676;
-}
-
-#uptime .meta .status.down:after, #uptime .meta .status.down:before {
-    content: "";
-    display: inline-block;
-    width: 12px;
-    height: 12px;
-    background: #f75676;
-    margin-right: 8px;
-    border-radius: 10px;
-    position: absolute;
-    left: -20px;
-    top: 1px;
-}
-
-#uptime .meta .status:after {
-    animation: anim 1s ease infinite;
-    animation-duration: 1s;
-    animation-timing-function: ease;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    animation-play-state: running;
-    animation-name: anim;
+  background-image: url(./assets/fail.svg);
+  color: #D9534F;
 }
 
 #uptime .meta .status.unknow {
-  /*background-image: url(./assets/question.svg);*/
-  color: #eee;
+  background-image: url(./assets/question.svg);
+  color: #6A737D;
 }
 
 #uptime .timeline {
