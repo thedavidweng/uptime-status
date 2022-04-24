@@ -5,7 +5,7 @@ window.Config = {
   SiteName: 'Uptime Status',
 
   // 站点链接
-  SiteUrl: '/',
+  SiteUrl: 'uptime-status-5uv.pages.dev',
 
   // UptimeRobot Api 域名
   // 只需填写域名部分，默认为官网域名
@@ -16,7 +16,7 @@ window.Config = {
   // UptimeRobot Api Keys
   // 支持 Monitor-Specific 和 Read-Only 两只 Api Key
   ApiKeys: [
-    'ur1078385-b9802a0868414b8a975d5038',
+    'ur1710726-0d3208dafd0b4bfaee55e2ea',
     /*
     'm786322663-402cd609baf66832d847ef63',
     'm786322674-0773b2c046e85a9cd3344aa8',
